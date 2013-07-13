@@ -1,5 +1,17 @@
 MegaLogin::Application.routes.draw do
   
+  resources :videos
+
+
+  resources :chapters
+
+
+  resources :books
+
+
+  resources :universities
+
+
   # Login Providers
   # /auth/facebook
   # auth/identity - Login
