@@ -1,4 +1,4 @@
-MegaLogin::Application.routes.draw do
+AcademicX::Application.routes.draw do
   
   resources :videos
 
@@ -15,7 +15,7 @@ MegaLogin::Application.routes.draw do
   # Login Providers
   # /auth/facebook
   # auth/identity - Login
-  #post /auth/identity/register - Registo 
+  #post /auth/identity/register - Registo
   # mas o get bloqueio para nunca verem o for  de dentro da gem e assim consigo passar a lógica pelo meu controller
   # get "/auth/identity/register", to: "users#new"
   get "/auth/failure" => "sessions#new"

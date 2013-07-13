@@ -18,6 +18,7 @@ end
 group :development do
   gem 'annotate', '2.5.0'
   gem "better_errors", ">= 0.7.2"
+  gem "rails-erd"
   gem "binding_of_caller", ">= 0.7.1", :platforms => [:mri_19, :rbx]
 end
 

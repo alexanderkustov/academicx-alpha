@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-MegaLogin::Application.load_tasks
+AcademicX::Application.load_tasks
